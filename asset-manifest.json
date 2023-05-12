@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/ocean-valley/static/css/main.2222652e.css",
-    "main.js": "/ocean-valley/static/js/main.bf19db45.js",
+    "main.css": "/ocean-valley/static/css/main.851004ca.css",
+    "main.js": "/ocean-valley/static/js/main.cced51fe.js",
+    "static/media/wrapper1-min.jpg": "/ocean-valley/static/media/wrapper1-min.6f44ef01bf6f263511bf.jpg",
     "static/media/activities-min.png": "/ocean-valley/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/ocean-valley/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
     "static/media/mh-mainmenu-bg-min.jpg": "/ocean-valley/static/media/mh-mainmenu-bg-min.93cf35e5dd66807fb752.jpg",
@@ -12,7 +13,6 @@
     "static/media/s33.jpg": "/ocean-valley/static/media/s33.011da0f6cc6e47c59729.jpg",
     "static/media/Bg-Video.mp4": "/ocean-valley/static/media/Bg-Video.bced2ccf586f14aa9d8e.mp4",
     "static/media/mission-home-min.jpg": "/ocean-valley/static/media/mission-home-min.4a4eef73e780c34b27c8.jpg",
-    "static/media/wrapper1-min.jpg": "/ocean-valley/static/media/wrapper1-min.d94a984aa0e585986d80.jpg",
     "static/media/mental-health-submenu-bg-min.jpg": "/ocean-valley/static/media/mental-health-submenu-bg-min.39da261a6bb085bd9946.jpg",
     "static/media/s32.jpg": "/ocean-valley/static/media/s32.7a98066bdc1698fbe0a7.jpg",
     "static/media/about-section-min.jpg": "/ocean-valley/static/media/about-section-min.3c76809a2a22f0376395.jpg",
@@ -44,11 +44,11 @@
     "static/media/aetna.png": "/ocean-valley/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/ocean-valley/index.html",
     "static/media/waves.svg": "/ocean-valley/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.2222652e.css.map": "/ocean-valley/static/css/main.2222652e.css.map",
-    "main.bf19db45.js.map": "/ocean-valley/static/js/main.bf19db45.js.map"
+    "main.851004ca.css.map": "/ocean-valley/static/css/main.851004ca.css.map",
+    "main.cced51fe.js.map": "/ocean-valley/static/js/main.cced51fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.2222652e.css",
-    "static/js/main.bf19db45.js"
+    "static/css/main.851004ca.css",
+    "static/js/main.cced51fe.js"
   ]
 }
