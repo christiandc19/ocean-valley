@@ -12,12 +12,13 @@
 }
 
 .wrapper-content-left {
-    width: 50%;
+    width: 500px;
     text-align: center;
 }
 
 .wrapper-content-left img {
-    width: 80%;
+    width: 100%;
+    border-radius: 1rem;
 }
 
 .wrapper-content-right {
@@ -29,12 +30,12 @@
 
 .wrapper-content-right h2 {
     font-size: 3rem;
-    color: #E2AB7F;
+    color: var(--primary-color);
 }
 
 .wrapper-content-right h1 {
     text-transform: uppercase;
-    color: #6D4321;
+    color: var(--primary-dark);
     font-size: 1rem;
     letter-spacing: 8px; 
 }

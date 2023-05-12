@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 :root {
   --primary-color: rgb(64, 113, 206);
-  --primary-dark: #0d2154;
-  --secondary-color: #46a828;
+  --primary-dark: #2b3d6b;
+  --primary-text: #171817;
 
 }
 
