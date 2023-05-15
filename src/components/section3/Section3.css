@@ -3,20 +3,22 @@
     margin: 10rem 0 3rem 0;
 }
 
+
 .section3-top {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: -10rem;
+    width: 100%;
 }
 
-.s3-flexItem {
-    width: 350px;
-}
-
-.s3-flexItem img {
+.s3-banner {
     width: 100%;
     padding: 1rem;
+    margin: auto;
+
+}
+
+.s3-banner img {
+    width: 100%;
+    margin-top: -15rem;
+
 }
 
 /* bottom */

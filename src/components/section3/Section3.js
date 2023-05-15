@@ -3,9 +3,8 @@ import "./Section3.css";
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
-import s31 from "../../assets/s31.jpg";
-import s32 from "../../assets/s32.jpg";
-import s33 from "../../assets/s33.jpg";
+
+import s34 from "../../assets/section3banner.png";
 
 import { BiBrain } from "react-icons/bi";
 
@@ -14,17 +13,11 @@ const Section3 = () => {
     <>
       <div className="section3">
         <div className="section3-top">
-          <div className="s3-flexItem">
-            <img src={s31} alt="Problem Discussion With Psychologist" />
+
+          <div className="s3-banner">
+            <img src={s34} alt="Depressed Man In Counseling Session " />
           </div>
 
-          <div className="s3-flexItem">
-            <img src={s32} alt="Crying Woman Participating In Group" />
-          </div>
-
-          <div className="s3-flexItem">
-            <img src={s33} alt="Depressed Man In Counseling Session " />
-          </div>
         </div>
 
         <div className="component3">
