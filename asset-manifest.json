@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ocean-valley/static/css/main.a733eabb.css",
-    "main.js": "/ocean-valley/static/js/main.f535f5e4.js",
+    "main.css": "/ocean-valley/static/css/main.59bcd27f.css",
+    "main.js": "/ocean-valley/static/js/main.d008ea0c.js",
     "static/media/wrapper1-min.jpg": "/ocean-valley/static/media/wrapper1-min.6f44ef01bf6f263511bf.jpg",
     "static/media/activities-min.png": "/ocean-valley/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/ocean-valley/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -19,7 +19,6 @@
     "static/media/submenu-bg-jobs.jpg": "/ocean-valley/static/media/submenu-bg-jobs.8c4e27270e58032cbb35.jpg",
     "static/media/menu-bg-mission.jpg": "/ocean-valley/static/media/menu-bg-mission.ad81ca1b33d463b33686.jpg",
     "static/media/treatment-2.jpg": "/ocean-valley/static/media/treatment-2.873fd4460bac0712e2e3.jpg",
-    "static/media/section3banner.png": "/ocean-valley/static/media/section3banner.55ca6d540694679a57f9.png",
     "static/media/treatment-1.jpg": "/ocean-valley/static/media/treatment-1.7a6b56e489b410a02529.jpg",
     "static/media/staff.jpg": "/ocean-valley/static/media/staff.05fa3028431c1d3d0788.jpg",
     "static/media/mh-submenu-bg-min.jpg": "/ocean-valley/static/media/mh-submenu-bg-min.8463132319d5ea715676.jpg",
@@ -42,11 +41,11 @@
     "static/media/aetna.png": "/ocean-valley/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/ocean-valley/index.html",
     "static/media/waves.svg": "/ocean-valley/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.a733eabb.css.map": "/ocean-valley/static/css/main.a733eabb.css.map",
-    "main.f535f5e4.js.map": "/ocean-valley/static/js/main.f535f5e4.js.map"
+    "main.59bcd27f.css.map": "/ocean-valley/static/css/main.59bcd27f.css.map",
+    "main.d008ea0c.js.map": "/ocean-valley/static/js/main.d008ea0c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a733eabb.css",
-    "static/js/main.f535f5e4.js"
+    "static/css/main.59bcd27f.css",
+    "static/js/main.d008ea0c.js"
   ]
 }
