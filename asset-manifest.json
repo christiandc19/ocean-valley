@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ocean-valley/static/css/main.59bcd27f.css",
-    "main.js": "/ocean-valley/static/js/main.d008ea0c.js",
+    "main.css": "/ocean-valley/static/css/main.a93e2842.css",
+    "main.js": "/ocean-valley/static/js/main.afd32225.js",
     "static/media/wrapper1-min.jpg": "/ocean-valley/static/media/wrapper1-min.6f44ef01bf6f263511bf.jpg",
     "static/media/activities-min.png": "/ocean-valley/static/media/activities-min.6296b11206d33e19d904.png",
     "static/media/hero-bg-1.jpg": "/ocean-valley/static/media/hero-bg-1.0c93d4ffcbaadc387b6f.jpg",
@@ -41,11 +41,11 @@
     "static/media/aetna.png": "/ocean-valley/static/media/aetna.6dd387382e5c040dbe55.png",
     "index.html": "/ocean-valley/index.html",
     "static/media/waves.svg": "/ocean-valley/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.59bcd27f.css.map": "/ocean-valley/static/css/main.59bcd27f.css.map",
-    "main.d008ea0c.js.map": "/ocean-valley/static/js/main.d008ea0c.js.map"
+    "main.a93e2842.css.map": "/ocean-valley/static/css/main.a93e2842.css.map",
+    "main.afd32225.js.map": "/ocean-valley/static/js/main.afd32225.js.map"
   },
   "entrypoints": [
-    "static/css/main.59bcd27f.css",
-    "static/js/main.d008ea0c.js"
+    "static/css/main.a93e2842.css",
+    "static/js/main.afd32225.js"
   ]
 }
