@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade';
 import './Hero.css'
 
 import BgVideo from '../../assets/Bg-Video.mp4'
-import Wave from '../../assets/waves.svg'
 
 
 const Hero = () => {
@@ -14,9 +13,6 @@ const Hero = () => {
         <div className='hero'>
             <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
 
-            <div className='hero-divider'>
-                <img src={Wave} loading="lazy" repeat-x alt='wave divider'/>
-            </div>
 
 
             <div className="hero-container">
