@@ -4,23 +4,15 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
 
-import s34 from "../../assets/section3banner.png";
 
 import { BiBrain } from "react-icons/bi";
 
 const Section3 = () => {
   return (
     <>
-      <div className="section3">
-        <div className="section3-top">
+      <div className="section3 ">
 
-          <div className="s3-banner">
-            <img src={s34} alt="Depressed Man In Counseling Session " />
-          </div>
-
-        </div>
-
-        <div className="component3">
+        <div className="component3 container">
           <div className="c3-left">
             <h2>MENTAL HEALTH SERVICES </h2>
             <h1>
@@ -33,7 +25,7 @@ const Section3 = () => {
               Your personal medical assistant is always a message away for
               anything you need, at no cost.
             </p>
-            <div className="c2-btn">
+            <div className="c3-btn">
               <LinkRoll
                 activeClass="active"
                 to="top"

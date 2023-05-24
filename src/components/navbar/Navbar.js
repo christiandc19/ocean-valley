@@ -47,7 +47,7 @@ const Navbar = () => {
 
         <div className='navbar' name='top'>
 
-            <div className='nav-box'>
+            <div className='nav-box container'>
 
             <div className="navbar-logo">
                     <Link to='/'>

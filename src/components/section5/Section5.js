@@ -8,7 +8,7 @@ const Section5 = () => {
         <div className="section5-content container">
             <h1>What We Do</h1> <br />
             <h2>
-            We offer professional help to those who need either simple advice or psychological suport
+            We offer professional help to those who need either simple advice or psychological support
             </h2>{" "}
             <br />
             <p>

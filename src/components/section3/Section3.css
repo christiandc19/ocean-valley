@@ -1,12 +1,8 @@
 .section3 {
     background-color: rgba(180, 225, 243, 0.185);
-    margin: 10rem 0 3rem 0;
 }
 
 
-.section3-top {
-    width: 100%;
-}
 
 .s3-banner {
     width: 100%;
@@ -79,7 +75,7 @@
 }
 
 .c3-left h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: black;
 }
 
@@ -136,6 +132,10 @@
     padding: 0 1rem;
     color: rgb(198, 134, 24);
 
+}
+
+.c3-btn button {
+    background-color: rgb(198, 134, 24);
 }
 
 @media  screen and (max-width:1450px) {
