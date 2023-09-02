@@ -14,20 +14,25 @@ const TherapyMH = () => {
     <>
       <div className="TherapyMH">
         <div className="content">
+
           <Fade left>
-            <div className="TherapyMH-left">
+            <div className="TherapyMH-header">
               <div className="left-content container">
                 <h1>MENTAL HEALTH TREATMENT</h1>
                 <p>Recovery begins here.</p>
-                <br />
               </div>
             </div>
           </Fade>
 
-          <div className="TherapyMH-right">
-            <div className="box1 box">
-              <div className="box-content">
-                <BiBrain className="box-icon" />
+
+
+          
+
+          <div className="mh-flex container">
+
+            <div className="card">
+              <div>
+                <BiBrain className="box-icon"/>
                 <h1>ANXIETY</h1>
                 <p>
                   Inability to manage one’s drinking habits. It is the most
@@ -36,8 +41,9 @@ const TherapyMH = () => {
               </div>
             </div>
 
-            <div className="box2 box">
-              <div className="box-content">
+
+            <div className="card">
+              <div>
                 <BiSad className="box-icon" />
                 <h1>DEPRESSION</h1>
                 <p>
@@ -48,8 +54,9 @@ const TherapyMH = () => {
               </div>
             </div>
 
-            <div className="box3 box">
-              <div className="box-content">
+
+            <div className="card">
+              <div>
                 <FaTheaterMasks className="box-icon" />
                 <h1>BIPOLAR</h1>
                 <p>
@@ -60,8 +67,8 @@ const TherapyMH = () => {
               </div>
             </div>
 
-            <div className="box4 box">
-              <div className="box-content">
+            <div className="card">
+              <div>
                 <GiBrain className="box-icon" />
                 <h1>STRESS DISORDER</h1>
                 <p>
@@ -73,14 +80,9 @@ const TherapyMH = () => {
             </div>
           </div>
 
+
           <div className="TherapyMH-btn">
-            <LinkRoll
-              activeClass="active"
-              to="top"
-              spy={true}
-              smooth={true}
-              duration={500}
-            >
+            <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
               <Link to="/mental-health">
                 <div className="TherapyMH-btn">
                   <button class="TherapyMH-cta">
@@ -94,6 +96,8 @@ const TherapyMH = () => {
               </Link>
             </LinkRoll>
           </div>
+
+
         </div>
       </div>
     </>

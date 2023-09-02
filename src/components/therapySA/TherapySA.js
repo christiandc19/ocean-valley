@@ -14,6 +14,7 @@ const TherapySA = () => {
     <>
       <div className="TherapySA">
         <div className="content">
+          
           <Fade left>
             <div className="TherapySA-left">
               <div className="left-content">
@@ -25,17 +26,12 @@ const TherapySA = () => {
                 </p>
                 <br />
 
+
                 <div className="TherapySA-btn hide">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
+                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                     <Link to="/substance-abuse">
-                      <div className="hero-btn">
-                        <button class="hero-cta">
+                      <div className="TherapySA-btn">
+                        <button class="TherapySA-cta">
                           <span>VIEW ALL</span>
                           <svg viewBox="0 0 13 10" height="10px" width="15px">
                             <path d="M1,5 L11,5"></path>
@@ -46,9 +42,13 @@ const TherapySA = () => {
                     </Link>
                   </LinkRoll>
                 </div>
+
+
+
               </div>
             </div>
           </Fade>
+
 
           <div className="TherapySA-right">
             <div className="box1 box">
@@ -98,27 +98,25 @@ const TherapySA = () => {
               </div>
             </div>
 
+
             <div className="TherapySA-btn hide-btn">
-              <LinkRoll
-                activeClass="active"
-                to="top"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                <Link to="/substance-abuse">
-                  <div className="hero-btn">
-                    <button class="hero-cta">
-                      <span>VIEW ALL</span>
-                      <svg viewBox="0 0 13 10" height="10px" width="15px">
-                        <path d="M1,5 L11,5"></path>
-                        <polyline points="8 1 12 5 8 9"></polyline>
-                      </svg>
-                    </button>
-                  </div>
-                </Link>
-              </LinkRoll>
-            </div>
+                  <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                    <Link to="/substance-abuse">
+                      <div className="TherapySA-btn">
+                        <button class="TherapySA-cta">
+                          <span>VIEW ALL</span>
+                          <svg viewBox="0 0 13 10" height="10px" width="15px">
+                            <path d="M1,5 L11,5"></path>
+                            <polyline points="8 1 12 5 8 9"></polyline>
+                          </svg>
+                        </button>
+                      </div>
+                    </Link>
+                  </LinkRoll>
+                </div>
+
+
+
           </div>
         </div>
       </div>

@@ -33,13 +33,7 @@ const AdhdSection = () => {
 
 </div>
 
-<div className="adhd-section-header container">
-                <h1>INATTENTION</h1><br/>
-                <p>Inattention can take many forms. Generally, inattention can be characterized by difficulty in following instructions, making careless mistakes, missing important details, and not appearing to listen to others.  <br/> <br />
-                For these reasons, those with ADHD may find it difficult to focus at school and work, leading to other related issues like maintaining good grades and meeting deadlines.<br/> <br />
-                With ADHD, you may have trouble with organizing and executing tasks and priorities, lose objects at a heightened rate, and become easily distracted by external stimuli or by your thoughts. 
-                </p>
-</div>
+
 
 <div className="adhd-section-header container">
                 <h1>HYPERACTIVITY-IMPULSIVITY</h1><br/>
