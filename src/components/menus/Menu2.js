@@ -12,11 +12,11 @@ const Menu2 = () => {
     <div className="menu2">
       <div className="menu2-header container">
         <h1>
-          SACRAMENTO REHAB TREATMENT CENTER OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
+          OCEAN VALLEY BEHAVIORAL HEALTH TREATMENT CENTER OFFERS VARIOUS SUBSTANCE ABUSE ADDICTION
           PROGRAMS
         </h1>
         <p>
-          At Sacramento Rehab Treatment Center, clients receive individual
+          At Ocean Valley Behavioral Health Treatment Center, clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to

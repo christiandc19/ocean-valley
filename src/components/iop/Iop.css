@@ -22,8 +22,6 @@
     opacity: 0.5;
 }
 
-
-
 .iop h1 {
     color: white;
     font-size: 4rem;
@@ -31,6 +29,12 @@
     text-align: center;
 }
 
+.iop p {
+    color: white;
+    font-size: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import InsuranceSection from '../insurance/InsuranceSection';
-import ContactForm from '../contact/ContactForm';
+import ContactForm2 from '../contact/Contact2';
 import MissionHome from '../mission/MissionHome';
 import TherapySA from '../therapySA/TherapySA';
 import TherapyMH from '../therapyMH/TherapyMH';
@@ -29,7 +29,7 @@ const home = () => {
     <TherapySA />
     <InsuranceSection />
     <MissionHome />
-    <ContactForm />
+    <ContactForm2 />
 
     {/* <WhatWeDo /> */}
     {/* <Section4 /> */}

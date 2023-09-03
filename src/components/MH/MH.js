@@ -12,7 +12,7 @@ const MH = () => {
                 <div className="mh-content">
                     <Fade top>
                     <h1>MENTAL HEALTH PROGRAMS</h1>
-                    <h2>Get Treatment That's Right For You</h2>
+                    <p>Your mental health is just as important as your physical health. And no matter what you’re going through, with the right treatment program, anything is possible.</p>
                     </Fade>
                 </div>
             </div>

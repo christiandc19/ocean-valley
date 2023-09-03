@@ -5,7 +5,9 @@
 }
 .menu3-header {
     padding: 2rem;
+    text-align: center;
 }
+
 
 
 .menu3-wrap
@@ -36,6 +38,7 @@
   color: white;
   text-transform: uppercase;
   font-size: 1rem;
+  text-align: center;
 }
 
 

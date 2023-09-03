@@ -11,6 +11,7 @@ const PHP = () => {
                 <div className="php-content">
                     <Fade top>
                     <h1>Partial Hospitalization Program</h1>
+                    <p>Through our PHP program, we give you the tools to manage your addiction in the most healthy way possible.<br/>Contact us today and start your journey to recovery</p>
                     </Fade>
                 </div>
             </div>

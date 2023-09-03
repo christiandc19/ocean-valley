@@ -102,14 +102,21 @@ input {
     margin: 1rem auto;
     }
 
-    iframe {
+    .hidden {
+      display: none;
+      margin-bottom: 2rem;
+      color: white;
+      text-align: center;
       width: 100%;
-      border-radius: 1rem;
-      border: none;
-      box-shadow: 10px 5px 5px rgb(129, 129, 129);
-
-    }
-
+      margin: auto;
+      z-index: 2;
+  }
+  
+  .textarea2 textarea {
+    border: none;
+    color: rgb(53, 82, 42);
+    text-align: center;
+  }
   
 
   @media screen and (max-width: 940px) {
