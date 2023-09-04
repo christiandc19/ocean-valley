@@ -11,7 +11,7 @@ const OxycodoneSection = () => {
     <div className='oxycodone-section-flex'>
 
       <div className='oxycodone-section-left'>
-        <h1>PRESCRIPTIONS ADDICTION</h1>
+        <h1>OXYCODONE ADDICTION</h1>
         <p>A powerful substance and one of the significant contributing drugs to the opioid epidemic in the United States.
         Oxycodone is a synthetic opiate intended to be prescribed to treat mild to intense pain. The only problem; it is also highly addictive and increasingly abused outside of its medicinal purposes.
 

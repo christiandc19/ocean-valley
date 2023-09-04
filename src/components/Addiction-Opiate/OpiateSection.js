@@ -12,7 +12,7 @@ const OpiateSection = () => {
                 <div className='kratom-section-flex'>
 
                   <div className='kratom-section-left'>
-                    <h1>KRATOM ADDICTION</h1>
+                    <h1>OPIATE ADDICTION</h1>
                     <p>Easily addictive and often associated with synthetic opioids, opiates can be specifically categorized as natural opioids, including:
                     <br/><br/>
                     <ul>
