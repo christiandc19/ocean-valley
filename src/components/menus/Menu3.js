@@ -4,7 +4,6 @@ import Fade from "react-reveal/Fade";
 import { Link as LinkRoll } from "react-scroll";
 import "./Menu3.css";
 
-import Contact2 from "../contact/Contact2";
 
 const Menu3 = () => {
   return (
@@ -25,7 +24,7 @@ const Menu3 = () => {
       </div>
 
 
-      <div class="menu3-wrap">
+      <div class="menu3-wrap container">
 
       <Fade top>
         <div className="menu3-card">
@@ -184,7 +183,6 @@ const Menu3 = () => {
       </div>
 
 
-      <Contact2 />
     </>
   );
 };
