@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 import ContactForm from "../contact/ContactForm";
 
 import Therapy from "../../assets/therapy.jpg";
-import Staff from "../../assets/staff.jpg";
+import Staff from "../../assets/staff.webp";
 
 const MissionSection = () => {
   return (

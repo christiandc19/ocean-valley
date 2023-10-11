@@ -56,8 +56,8 @@ const ContactForm = () => {
         <div class="address details">
           <i class="fas fa-map-marker-alt"></i>
           <div class="topic">Address</div><br/>
-          <div class="text-one">71777 San Jacinto Dr Suite 102,</div>
-          <div class="text-two">Rancho Mirage, Ca 92270</div>
+          <div class="text-one">13961 Mauve Dr.,</div>
+          <div class="text-two">Santa Ana, CA 92705</div>
         </div>
 
         <div class="phone details">

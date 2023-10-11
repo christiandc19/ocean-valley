@@ -8,7 +8,7 @@
   .op:before {
     content: '';
     position: absolute;
-    background: url('../../assets/op-hero.jpg') no-repeat center top/cover;
+    background: url('../../assets/op-hero.webp') no-repeat center top/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -17,13 +17,12 @@
 .op-content {
     width: 100%;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
-    opacity: 0.5;
 }
 
 .op h1 {
-    color: white;
+    color: rgba(255, 255, 255, 0.89);
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -31,7 +30,7 @@
 
 
 .op p {
-    color: white;
+    color: rgba(255, 255, 255, 0.89);
     font-size: .8rem;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -49,15 +48,9 @@
         font-size: 2rem;
     }
     
-    .op-content {
-        display: block;
-        position: absolute;
-        top: 30%;
-        padding: 1rem;
-    }
-    
     .op-content h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     
     }
+

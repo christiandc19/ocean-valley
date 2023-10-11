@@ -42,6 +42,9 @@ import SA from './routes/SA';
 import Php from './routes/PHP';
 import Iop from './routes/IOP';
 import Op from './routes/OP';
+import CaseManagementPage from './routes/Programs-CaseManagement';
+import CrisisInterventionPage from './routes/Programs-CrisisIntervention';
+import FamilyTherapyPage from './routes/Programs-FamilyTherapy';
 
 
 
@@ -86,6 +89,11 @@ ReactDOM.render(
       <Route exact path='/php' element={<Php />} />
       <Route exact path='/iop' element={<Iop />} />
       <Route exact path='/op' element={<Op />} />
+      <Route exact path='/case-management' element={<CaseManagementPage />} />
+      <Route exact path='/crisis-intervention' element={<CrisisInterventionPage />} />
+      <Route exact path='/family-therapy' element={<FamilyTherapyPage />} />
+
+
 
 
 

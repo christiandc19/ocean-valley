@@ -63,8 +63,9 @@ const Navbar = () => {
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/iop`}> Intensive Outpatient Program </NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/op`}> Outpatient Program </NavLink> </li>
-                            {/* <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Mental Health </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/`}> Substance Addiction </NavLink> </li> */}
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/case-management`}> Case Mangement </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/crisis-intervention`}> Crisis Intervention </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/family-therapy`}> Family Therapy</NavLink> </li>
                         </ul>
                     </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <FiChevronDown /> </Link>
