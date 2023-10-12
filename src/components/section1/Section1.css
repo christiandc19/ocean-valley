@@ -79,7 +79,8 @@
 
 @media  screen and (max-width: 940px) {
     .section1-content h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .section1-left h1 {

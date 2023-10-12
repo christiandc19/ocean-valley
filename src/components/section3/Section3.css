@@ -47,7 +47,6 @@
 
 .section3-right h2 {
     font-size: 2rem;
-    color: bla;
     padding: 1rem 0;
 }
 
@@ -85,6 +84,11 @@
 
     .section3-right h1 {
         text-align: center; 
+    }
+
+    .section3-right h2 {
+        text-align: center;
+        font-size: 1.5rem;
     }
 
     .section3 hr {
