@@ -103,7 +103,6 @@
     border: 1px solid lavender;
     border-radius: 5px;
     width: auto;
-    left: -17px;
     padding: 2px 0 0 0;
     margin-top: 6px;
     z-index: 1000;
@@ -112,13 +111,9 @@
 
 
   /* -----------------------------------------------------> DROPDOWN ARROW */
-  .sub__menus__arrows {
-    position: relative;
-  }
 
   .sub__menus__arrows svg, .sub__menus__arrows__full svg {
     padding-top: 0px;
-    position: absolute;
     top: 10px;
   }
 
@@ -193,13 +188,28 @@
         padding: .2rem 1rem;
       }
 
-      .sub__menus {
-        width: 250px;
-      }
 
 }
 
 
 
+@media screen and (max-width: 500px) {
+  .sub__menus {
+    width: 100vw;
+    left: 0;
+    border-radius: 0;
+    margin: auto;
+  }
+
+  .menu-item .sub__menus li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-item .sub__menus li:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+    width: 100%;
+  }
 
 
+}

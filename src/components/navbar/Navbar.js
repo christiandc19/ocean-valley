@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-wh.png'
-import {FiChevronDown } from "react-icons/fi";
+import {BsFillCaretDownFill } from "react-icons/bs";
 // import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
@@ -58,7 +58,7 @@ const Navbar = () => {
                 <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/treatment'>Treatment</Link> </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Programs <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Programs <BsFillCaretDownFill /> </Link>
                     <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/php`}> Partial Hospitalization Program</NavLink> </li>
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/iop`}> Intensive Outpatient Program </NavLink> </li>
@@ -68,11 +68,8 @@ const Navbar = () => {
                             <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/family-therapy`}> Family Therapy</NavLink> </li>
                         </ul>
                     </li>
-                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <FiChevronDown /> </Link>
+                    <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/mental-health`}> Mental Health <BsFillCaretDownFill /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                                {/* <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/mental-health-php`}> Partial Hospitalization Program</NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-iop`}> Intensive Outpatient Program </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mental-health-op`}> Outpatient Program </NavLink> </li> */}
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/depression`}> Depression </NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/anxiety`}> Anxiety Disorder </NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/panic-disorder`}> Panic Disorder </NavLink> </li>
@@ -96,11 +93,8 @@ const Navbar = () => {
 
 
 
-                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/substance-abuse`}> Addiction <FiChevronDown /> </Link>
+                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`/substance-abuse`}> Addiction <BsFillCaretDownFill /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
-                                {/* <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/substance-abuse-php`}> Partial Hospitalization Program</NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-iop`}> Intensive Outpatient Program </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/substance-abuse-op`}> Outpatient Program </NavLink> </li> */}
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/alcohol`}> Alcohol</NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/cocaine`}> Cocaine </NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/fentanyl`}> Fentanyl </NavLink> </li>
@@ -115,7 +109,7 @@ const Navbar = () => {
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/xanax`}> Xanax </NavLink> </li>
                             </ul>
                         </li>
-                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> About <FiChevronDown /> </Link>
+                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> About <BsFillCaretDownFill /> </Link>
                             <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                                 <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/about-us`}> About Us</NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mission`}> Our Mission </NavLink> </li>
