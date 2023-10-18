@@ -20,7 +20,6 @@
 
 .iopSection-wrap {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 5rem 1rem;
 }
@@ -32,28 +31,26 @@
 }
 
 .iopSection-wrap-left h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     color: rgb(15, 15, 15);
     padding: 1rem;
 }
 
 .iopSection-wrap-right {
-    width: 600px;
+    width: 50%;
     margin: auto;
-    padding: 0 1rem;
 }
 
 
 .iopSection-wrap-right h1 {
+    padding: .5rem 0;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
 .iopSection-wrap-right p {
-    font-size: 16px;
     text-align: justify;
-    padding: 1rem 0;
 }
 
 
@@ -79,18 +76,24 @@
     font-size: 16px;
 }
 
-.wrap2-content {
-    padding: 0 2rem;
-}
+
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:1200px) {
-    .iop-wrap-right {
-        width: 90%;
+@media screen and (max-width:940px) {
+ 
+    .iopSection-wrap-left h1 {
+        font-size: 1.5rem;
     }
-
-
+    
+    .iopSection-wrap {
+        flex-wrap: wrap;
+      }
+      
+      .iopSection-wrap-right {
+        width: 100%;
+    }
+    
 
 }
 

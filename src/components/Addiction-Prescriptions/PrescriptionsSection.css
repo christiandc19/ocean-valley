@@ -20,9 +20,6 @@
   opacity: 0.03;
 }
 
-.prescriptions-section-content {
-  padding: 3rem 1rem;
-}
 
 .prescriptions-section-flex {
   display: flex;
@@ -35,6 +32,9 @@
   margin: auto;
 }
 
+.prescriptions-section-left p {
+  text-align: justify;
+}
 
 .prescriptions-section-right {
   width: 500px;

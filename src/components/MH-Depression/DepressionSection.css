@@ -20,11 +20,16 @@
 }
 
 .depression-section-content {
-  padding: 3rem 1rem;
+  padding: 2rem 0;
 }
 
 .depression-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.depression-section-header p {
+  text-align: justify;
 }
 
 .depression-section-flex {
@@ -35,8 +40,12 @@
 
 .depression-section-left {
   width: 50%;
-  margin: auto;
 }
+
+.depression-section-left p {
+  text-align: justify;
+}
+
 
 .depression-section-right {
   width: 500px;
@@ -49,7 +58,6 @@
 .depression-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 

@@ -20,11 +20,15 @@
 }
 
 .asd-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .asd-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.asd-section-header p {
+  text-align: justify;
 }
 
 .asd-section-header h5 {
@@ -44,6 +48,10 @@
   margin: auto;
 }
 
+.asd-section-left p {
+   text-align: justify;
+}
+
 .asd-section-right {
   width: 500px;
   margin: auto;
@@ -55,7 +63,6 @@
 .asd-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -78,13 +85,7 @@
     margin: auto;
   }
 
-  .asd-section-left h1 {
-    text-align: center;
-  }
 
-  .asd-section-header h1 {
-    text-align: center;
-  }
   
   }
 

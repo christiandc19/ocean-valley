@@ -20,12 +20,17 @@
 }
 
 .ptsd-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .ptsd-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
 }
+
+.ptsd-section-header p {
+  text-align: justify;
+}
+
 
 .ptsd-section-header h5 {
   font-size: .9rem;
@@ -44,6 +49,10 @@
   margin: auto;
 }
 
+.ptsd-section-left p {
+  text-align: justify;
+}
+
 .ptsd-section-right {
   width: 500px;
   margin: auto;
@@ -55,7 +64,6 @@
 .ptsd-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -76,14 +84,6 @@
   .ptsd-section-right {
     width: 100%;
     margin: auto;
-  }
-
-  .ptsd-section-left h1 {
-    text-align: center;
-  }
-
-  .ptsd-section-header h1 {
-    text-align: center;
   }
   
   }

@@ -20,12 +20,17 @@
 }
 
 .anger-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .anger-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
 }
+
+.anger-section-header p {
+  text-align: justify;
+}
+
 
 .anger-section-header h5 {
   font-size: .9rem;
@@ -44,6 +49,10 @@
   margin: auto;
 }
 
+.anger-section-left p {
+  text-align: justify;
+}
+
 .anger-section-right {
   width: 500px;
   margin: auto;
@@ -55,7 +64,6 @@
 .anger-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 

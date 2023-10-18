@@ -20,7 +20,6 @@
 
 .opSection-wrap {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 5rem 1rem;
 }
@@ -32,7 +31,7 @@
 }
 
 .opSection-wrap-left h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     color: rgb(15, 15, 15);
     padding: 1REM;
@@ -41,12 +40,10 @@
 .opSection-wrap-right {
     width: 600px;
     margin: auto;
-    padding: 0 1rem;
 }
 
 
 .opSection-wrap-right p {
-    font-size: 16px;
     text-align: justify;
 }
 
@@ -70,7 +67,6 @@
 
 .opSection-wrap2 p {
     color: rgb(214, 214, 214);
-    font-size: 16px;
 }
 
 .wrap2-content {
@@ -79,12 +75,19 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:940px) {
     .opSection-wrap-right {
-        width: 90%;
+        width: 100%;
     }
 
-
+    .opSection-wrap-left h1 {
+        font-size: 1.5rem;
+    }
+    
+    .opSection-wrap {
+        flex-wrap: wrap;
+      }
+      
 
 }
 

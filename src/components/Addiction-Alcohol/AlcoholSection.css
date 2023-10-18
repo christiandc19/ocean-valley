@@ -20,7 +20,7 @@
 }
 
 .alcohol-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .alcohol-section-flex {
@@ -32,6 +32,10 @@
 .alcohol-section-left {
   width: 50%;
   margin: auto;
+}
+
+.alcohol-section-left p {
+  text-align: justify;
 }
 
 
@@ -68,9 +72,6 @@
     margin: auto;
   }
 
-  .alcohol-section-left h1 {
-    text-align: center;
-  }
   
   }
 

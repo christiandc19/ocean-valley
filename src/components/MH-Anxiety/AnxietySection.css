@@ -20,11 +20,11 @@
 }
 
 .anxiety-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .anxiety-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .anxiety-section-flex {
@@ -36,6 +36,14 @@
 .anxiety-section-left {
   width: 50%;
   margin: auto;
+}
+
+.anxiety-section-left p {
+  text-align: justify;
+}
+
+.anxiety-section-header p {
+  text-align: justify;
 }
 
 .anxiety-section-right {
@@ -64,21 +72,14 @@
   
   .anxiety-section-left {
     width: 100%;
-    margin: auto;
   }
   
   .anxiety-section-right {
     width: 100%;
-    margin: auto;
   }
 
-  .anxiety-section-left h1 {
-    text-align: center;
-  }
 
-  .anxiety-section-header h1 {
-    text-align: center;
-  }
+
   
   }
 

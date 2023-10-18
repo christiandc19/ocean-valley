@@ -20,9 +20,7 @@
   opacity: 0.03;
 }
 
-.oxycodone-section-content {
-  padding: 3rem 1rem;
-}
+
 
 .oxycodone-section-flex {
   display: flex;
@@ -33,6 +31,10 @@
 .oxycodone-section-left {
   width: 50%;
   margin: auto;
+}
+
+.oxycodone-section-left p {
+  text-align: justify;
 }
 
 
@@ -69,9 +71,6 @@
     margin: auto;
   }
 
-  .oxycodone-section-left h1 {
-    text-align: center;
-  }
   
   }
 

@@ -20,11 +20,11 @@
 }
 
 .bipolar-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .bipolar-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 .bipolar-section-header h5 {
@@ -32,6 +32,9 @@
   color: orange;
 }
 
+.bipolar-section-header p {
+  text-align: justify;
+}
 
 .bipolar-section-flex {
   display: flex;
@@ -42,6 +45,10 @@
 .bipolar-section-left {
   width: 50%;
   margin: auto;
+}
+
+.bipolar-section-left p {
+  text-align: justify;
 }
 
 .bipolar-section-right {
@@ -55,7 +62,6 @@
 .bipolar-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -78,13 +84,6 @@
     margin: auto;
   }
 
-  .bipolar-section-left h1 {
-    text-align: center;
-  }
-
-  .bipolar-section-header h1 {
-    text-align: center;
-  }
   
   }
 

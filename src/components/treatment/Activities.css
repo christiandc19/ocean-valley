@@ -38,17 +38,19 @@
   .activities-flex-left h1 {
     padding: 1rem 0;
     text-align: center;
+  }
 
+  .activities-flex-left p {
+    text-align: justify;
   }
 
   .activities-flex-left ul {
     width: fit-content;
-    padding: 1rem 0;
+    padding: .5rem 0;
   }
   
 
   .activities-flex-right {
-    padding: 1rem;
     width: 450px;
   }
 
@@ -63,7 +65,7 @@
       }
 
       .activities-flex-left ul {
-        margin: auto;
+        margin: auto 0;
       }
 
   }

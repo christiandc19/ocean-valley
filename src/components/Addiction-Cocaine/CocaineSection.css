@@ -20,7 +20,7 @@
 }
 
 .cocaine-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .cocaine-section-flex {
@@ -34,6 +34,11 @@
   margin: auto;
 }
 
+
+.cocaine-section-left p {
+  text-align: justify;
+}
+
 .cocaine-section-right {
   width: 500px;
   margin: auto;
@@ -45,7 +50,6 @@
 .cocaine-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -68,10 +72,7 @@
     margin: auto;
   }
 
-  .cocaine-section-left h1 {
-    text-align: center;
-  }
-  
+
   }
 
 

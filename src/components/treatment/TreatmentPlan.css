@@ -18,18 +18,17 @@
   }
 
   .treatmentPlan-content {
-    padding: 1rem 0;
+    padding: 1rem;
   }
  
 
   .treatment-header p {
     text-align: center;
-    padding: 1rem;
   }
 
   .treatment-header h1{
     text-align: center;
-    padding: 1rem;
+    padding: .5rem 0;
   }
 
   .treatmentPlan-flex {
@@ -42,11 +41,10 @@
   .treatmentPlan-right {
     width: 50%;
     margin: auto;
-    padding: 1rem;
   }
 
   .treatmentPlan-right h1 {
-    padding: 1rem 0;
+    padding: .5rem 0;
     text-align: center;
   } 
   .treatmentPlan-right p {
@@ -57,7 +55,6 @@
   }
 
   .treatmentPlan-left {
-    padding: 1rem;
     width: 420px;
   }
 
@@ -74,10 +71,6 @@
   @media  screen and (max-width:940px) {
     .treatmentPlan-right {
         width: 100%;
-      }
-
-      .treatmentPlan-right h1, .treatmentPlan-right p {
-        text-align: center;
       }
 
       .treatmentPlan-flex {

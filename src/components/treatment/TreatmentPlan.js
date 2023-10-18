@@ -45,7 +45,6 @@ const TreatmentPlan = () => {
 
             <p>Psychodynamic therapy is based on the following key principles:</p>
 
-                        <br />
                             <ul>
                             <br />
                             <li>

@@ -18,7 +18,7 @@
 }
 
 .mdma-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .mdma-section-flex {
@@ -32,6 +32,10 @@
   margin: auto;
 }
 
+.mdma-section-left p {
+  text-align: justify;
+}
+
 .mdma-section-right {
   width: 500px;
   margin: auto;
@@ -43,7 +47,6 @@
 .mdma-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -66,9 +69,6 @@
     margin: auto;
   }
 
-  .mdma-section-left h1 {
-    text-align: center;
-  }
   
   }
 

@@ -18,7 +18,7 @@
   }
 
   .psychodynamic-content {
-    padding: 1rem 0;
+    padding: 1rem;
   }
 
   .psychodynamic-flex {
@@ -30,11 +30,10 @@
   .psychodynamic-right {
     width: 50%;
     margin: auto;
-    padding: 1rem;
   }
 
   .psychodynamic-right h1 {
-    padding: 1rem 0;
+    padding: .5rem 0;
     text-align: center;
   } 
   .psychodynamic-right p {
@@ -45,7 +44,6 @@
   }
 
   .psychodynamic-left {
-    padding: 1rem;
     width: 500px;
   }
 
@@ -65,17 +63,10 @@
     .psychodynamic-right {
         width: 100%;
       }
-
-
       
     .psychodynamic-left {
-      width: 90%;
+      width: 100%;
     }
-
-
-      .psychodynamic-right h1, .psychodynamic-right p {
-        text-align: center;
-      }
 
       .psychodynamic-flex {
         flex-wrap: wrap-reverse;

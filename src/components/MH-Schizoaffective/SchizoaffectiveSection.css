@@ -20,11 +20,15 @@
 }
 
 .schizoaffective-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .schizoaffective-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.schizoaffective-section-header p {
+  text-align: justify;
 }
 
 .schizoaffective-section-header h5 {
@@ -42,6 +46,11 @@
 .schizoaffective-section-left {
   width: 50%;
   margin: auto;
+}
+
+.schizoaffective-section-left p {
+  text-align: justify;
+  padding: .5rem 0;
 }
 
 .schizoaffective-section-right {
@@ -78,13 +87,7 @@
     margin: auto;
   }
 
-  .schizoaffective-section-left h1 {
-    text-align: center;
-  }
 
-  .schizoaffective-section-header h1 {
-    text-align: center;
-  }
   
   }
 

@@ -20,11 +20,15 @@
 }
 
 .panic-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .panic-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.panic-section-header p {
+  text-align: justify;
 }
 
 .panic-section-flex {
@@ -36,6 +40,10 @@
 .panic-section-left {
   width: 50%;
   margin: auto;
+}
+
+.panic-section-left p {
+  text-align: justify;
 }
 
 .panic-section-right {

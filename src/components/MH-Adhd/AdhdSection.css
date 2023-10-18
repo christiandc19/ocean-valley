@@ -20,11 +20,15 @@
 }
 
 .adhd-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .adhd-section-header {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+.adhd-section-header p {
+  text-align: justify;
 }
 
 .adhd-section-header h5 {
@@ -42,6 +46,10 @@
 .adhd-section-left {
   width: 50%;
   margin: auto;
+}
+
+.adhd-section-left p {
+  text-align: justify;
 }
 
 .adhd-section-right {

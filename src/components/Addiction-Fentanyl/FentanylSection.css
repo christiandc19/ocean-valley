@@ -20,7 +20,7 @@
 }
 
 .fentanyl-section-content {
-  padding: 3rem 1rem;
+  padding: 3rem 0rem;
 }
 
 .fentanyl-section-flex {
@@ -34,6 +34,10 @@
   margin: auto;
 }
 
+.fentanyl-section-left p {
+  text-align: justify;
+}
+
 .fentanyl-section-right {
   width: 500px;
   margin: auto;
@@ -45,7 +49,6 @@
 .fentanyl-section-right img {
   width: 100%;
   border-radius: 15px;
-  padding: .5rem;
 }
 
 
@@ -68,9 +71,6 @@
     margin: auto;
   }
 
-  .fentanyl-section-left h1 {
-    text-align: center;
-  }
   
   }
 
