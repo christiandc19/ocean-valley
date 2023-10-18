@@ -195,8 +195,8 @@
 
 @media screen and (max-width: 500px) {
   .sub__menus {
-    width: 100vw;
-    left: 0;
+    width: 92vw;
+    left: 1rem;
     border-radius: 0;
     margin: auto;
   }
@@ -207,8 +207,9 @@
   }
 
   .menu-item .sub__menus li:hover {
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(5, 88, 143, 0.719);
     width: 100%;
+    ;
   }
 
 

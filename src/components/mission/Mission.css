@@ -24,7 +24,7 @@
 .mission .mission-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
@@ -52,6 +52,6 @@
 }
 
 .mission h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 }

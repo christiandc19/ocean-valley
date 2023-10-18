@@ -34,7 +34,6 @@
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-align: center;
 }
 
 .sa h2 {
@@ -48,7 +47,13 @@
 
 @media screen and (max-width:940px) {
 
-.sa h1 {
+.sa-content h1 {
     font-size: 2rem;
+    text-align: center;
+}
+
+.sa-content h2 {
+    font-size: 1rem;
+    text-align: center;
 }
 }

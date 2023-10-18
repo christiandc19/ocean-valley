@@ -26,7 +26,7 @@
 .bipolar-disorder-content {
     display: block;
     position: absolute;
-    top: 40%;
+    bottom: 20%;
     padding: 1rem;
 }
 
@@ -44,7 +44,7 @@
 @media screen and (max-width:940px) {
 
 .bipolar-disorder h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 }
